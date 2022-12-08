@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+.navbar > div{
+    margin: 20px 100px 10px;
+}
+.lens{
+    width: 102px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: overline;
+}
+.lens:hover{
+    text-decoration: underline dodgerblue;
+    cursor: pointer;
+}
+.setn{
+    width: 26px;
+    height: 26px;
+}
+.setn:hover{
+    border:1px solid dodgerblue;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+h1{
+    width: 607px;
+    height: 232px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    color: #0B0A1B;
+    text-align: justify;
+    margin-left: 150px;
+}
+h1:hover{
+    text-decoration: underline dodgerblue;
+    cursor: pointer;
+}
+
+input{
+    width: 892px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECF0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 140px;
+    padding-left: 100px;
+}
+input:hover{
+    border: 2px solid dodgerblue;
+    border-radius: 20px;
+}
+.result{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.result > div{
+    text-align: left;
+    margin: 0 300px;
+}
+.res{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+}
+i{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #8C98AD;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background: #E5E5E5;
+}
+.ftr{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.wrld{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    margin-left: 280px;
+}
+.wrld:hover{
+    text-decoration: underline dodgerblue;
+    cursor: pointer;
+}
+.api{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.f2{
+    text-align: justify;
+    margin-left: 510px;
+}
+.api:hover{
+    text-decoration: underline dodgerblue;
+    cursor: pointer;
+}
+.button{
+    width: 220px;
+    height: 48px;
+    left: 396px;
+    top: 1565px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    margin-left: 110px;
+}
+.button:hover{
+    border: 2px solid dodgerblue;
+    border-radius: 30px;
+}
+.ftr2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.ftr2 > div{
+    margin: 50px 100px;
+}
+.wd{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: overline;
+}
+.wd:hover{
+    text-decoration: underline dodgerblue;
+}
+
+.trm{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.trm:hover{
+    text-decoration: underline dodgerblue;
+}
+.img{
+    margin-left: 150px;
+}
+.cpy{
+    margin-left: 150px;
+}
+.a{
+    margin-left: 50px;
+    margin: 0 20px;
+}
+.gsm{
+    margin:0 10px;
+}
+.gsm:hover{
+    border: 1px solid #58667E;
+}
+.srch{
+    width: 124px;
+    height: 53px;
+    color: white;
+    background: #000000;
+    border-radius: 5px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.srch:hover{
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+}
+.f1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.diamond{
+    margin-left: 250px;
+}
+.f3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.spiral{
+    margin-left: 200px;
+}
+.circle2{
+    margin-left: 300px;
+}
+.spl{
+    color: dodgerblue;
+}
+h2{
+    font-family: 'dance';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+}
+@font-face {
+    font-family: dance;
+    src: url(/public/dancingScript.ttf);
+}
+@font-face {
+    font-family: squid;
+    src: url(/public/squid.otf);
+}
+i{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #8C98AD;
+}
+p{
+    font-family: 'squid';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+li{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8C98AD;
+}
+ol{
+ border: 1px solid dodgerblue;
+ background-color: #E5E5E5;
+}
